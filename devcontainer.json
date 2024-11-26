@@ -1,0 +1,8 @@
+{
+    "name": "Go Development Container",
+    "image": "golang:1.20-alpine",
+    "postCreateCommand": "go mod todo",
+    "extensions": [
+      "ms-vscode.go"
+    ]
+  }
